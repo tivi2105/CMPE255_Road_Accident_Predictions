@@ -12,7 +12,7 @@ Go to 'https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents' and download 
 We could not updaload 'Random forest regression' model as the file is more than 100MB, we could not upload it to the github. So, got to 'https://drive.google.com/file/d/1k4gEUQdKvn6qXEPlknp_YsgbevuyxZzX/view?usp=sharing' and download 'RandomForest_model.sav' file and place it in the folder where dash_app.py is located (basically the base folder).
 
 ## Step 3:
-Now open 'predict.py' and goto line 33 and change the model to one of the following 'minmax_scaler' for minmaxscaler model, 'Logistic_regression_model' for logistic regression, 'RandomForest_model_outside' for random forest, 'Support_vector_machine_model' for SVM or 'city_binary_encoder_model'.
+Now open 'predict.py' and goto line 33 and change the model to one of the following 'minmax_scaler' for minmaxscaler model, 'Logistic_regression_model' for logistic regression, 'RandomForest_model' for random forest, 'Support_vector_machine_model' for SVM or 'city_binary_encoder_model'.
 
 ## Step 4:
 Now run dash_app.py and go to 'http://127.0.0.1:3000/' and go to 'Predictions' tab, provide inputs and click on submit you can see the severity meter changes from its default value to the predicted value (Please be patient on the first try for the prediction to load as the data set is huge sometimes it might take a while to just load the dataset).
