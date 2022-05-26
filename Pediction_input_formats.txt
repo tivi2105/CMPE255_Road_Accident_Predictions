@@ -1,0 +1,38 @@
+
+
+
+'Temperature(F)'     :          36.9,
+'Distance(mi)'       :          0.747,
+'Humidity(%)'        :          91.0,
+'Pressure(in)'       :          29.68,
+'Visibility(mi)'     :          10.0,
+'Wind_Speed(mph)'    :          15.0,
+'Precipitation(in)'  :          0.02,
+'Start_Lng'			 : 			-84.0628,
+'Start_Lat'          : 			39.86542,
+
+Boolean values for below 0 or 1:
+Amenity                           
+Bump                              
+Crossing                          
+Give_Way                          
+Junction                         
+No_Exit                           
+Railway                          
+Roundabout                        
+Station                           
+Stop                              
+Traffic_Calming                   
+Traffic_Signal                    
+
+datetime : python datetime input
+
+Wind_Direction  E,N,NE,NW,S,SE,SW,Variable,W   
+               
+Civil_Twilight_Night              0,1
+
+Side_R                            0,1
+
+Weather_Condition : Cloudy,Fog,Hail,Rain,Sand,Smoke,Snow,Thunderstorm,Windy
+
+City : "California"
